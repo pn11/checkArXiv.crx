@@ -22,3 +22,6 @@ Then push the button ```Pack extension...```.
 Push the icon and arXiv page will be shown.
 
 ![demo](https://raw.githubusercontent.com/pn11/checkArXiv.crx/master/readme_materials/demo.png)
+
+##To do
+- フレーム内の```<a>```タグに全て```target=_blacnk```を挿入する。
