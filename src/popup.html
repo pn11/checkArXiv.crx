@@ -1,0 +1,38 @@
+
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 1000px;
+      }
+    </style>
+
+  </head>
+  <body>
+  <p><a href=http://arxiv.org/list/astro-ph/new>Astrophysics authors/titles "new"</a></p>
+  <iframe src="http://arxiv.org/list/astro-ph/new" width="700" height="400"></iframe>
+
+  <br/>
+  <br/>
+
+  <p><a href=http://arxiv.org/list/hep-ex/new>High Energy Physics - Experiment authors/titles "new"</a></p>
+  <iframe src="http://arxiv.org/list/hep-ex/new" width="700" height="400"></iframe>
+
+  </body>
+</html>
+
