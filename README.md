@@ -21,3 +21,4 @@ Then push the button ```Pack extension...```.
 ##Usage
 Push the icon and arXiv page will be shown.
 
+![demo](https://raw.githubusercontent.com/pn11/checkArXiv.crx/master/readme_materials/demo.png)
